@@ -8,87 +8,33 @@ export default function HomePage() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
-            <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
-              <h1 className="text-4xl font-bold text-gray-900 tracking-tight sm:text-5xl md:text-6xl">
-                Build Your SaaS
-                <span className="block text-orange-500">Faster Than Ever</span>
-              </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Launch your SaaS product in record time with our powerful,
-                ready-to-use template. Packed with modern technologies and
-                essential integrations.
-              </p>
-              <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
-                <a
-                  href="https://vercel.com/templates/next.js/next-js-saas-starter"
-                  target="_blank"
-                >
-                  <Button className="bg-white hover:bg-gray-100 text-black border border-gray-200 rounded-full text-lg px-8 py-4 inline-flex items-center justify-center">
-                    Deploy your own
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
-                </a>
-              </div>
-            </div>
-            <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
-              <Terminal />
-            </div>
+        <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
+          <h1 className="text-4xl font-bold text-gray-900 tracking-tight sm:text-5xl md:text-6xl">
+            AI-Based Image Generation
+            <span className="block text-orange-500">For Your Products</span>
+          </h1>
+          <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+            Enhance your product listings with AI-generated images. Create stunning visuals in no time with our cutting-edge technology.
+          </p>
+          <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
+            <a
+          href="https://vercel.com/templates/next.js/next-js-saas-starter"
+          target="_blank"
+            >
+          <Button className="bg-white hover:bg-gray-100 text-black border border-gray-200 rounded-full text-lg px-8 py-4 inline-flex items-center justify-center">
+            Try it now
+            <ArrowRight className="ml-2 h-5 w-5" />
+          </Button>
+            </a>
           </div>
         </div>
-      </section>
-
-      <section className="py-16 bg-white w-full">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="lg:grid lg:grid-cols-3 lg:gap-8">
-            <div>
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-orange-500 text-white">
-                <svg viewBox="0 0 24 24" className="h-6 w-6">
-                  <path
-                    fill="currentColor"
-                    d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z"
-                  />
-                </svg>
-              </div>
-              <div className="mt-5">
-                <h2 className="text-lg font-medium text-gray-900">
-                  Next.js and React
-                </h2>
-                <p className="mt-2 text-base text-gray-500">
-                  Leverage the power of modern web technologies for optimal
-                  performance and developer experience.
-                </p>
-              </div>
-            </div>
-
-            <div className="mt-10 lg:mt-0">
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-orange-500 text-white">
-                <Database className="h-6 w-6" />
-              </div>
-              <div className="mt-5">
-                <h2 className="text-lg font-medium text-gray-900">
-                  Postgres and Drizzle ORM
-                </h2>
-                <p className="mt-2 text-base text-gray-500">
-                  Robust database solution with an intuitive ORM for efficient
-                  data management and scalability.
-                </p>
-              </div>
-            </div>
-
-            <div className="mt-10 lg:mt-0">
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-orange-500 text-white">
-                <CreditCard className="h-6 w-6" />
-              </div>
-              <div className="mt-5">
-                <h2 className="text-lg font-medium text-gray-900">
-                  Stripe Integration
-                </h2>
-                <p className="mt-2 text-base text-gray-500">
-                  Seamless payment processing and subscription management with
-                  industry-leading Stripe integration.
-                </p>
-              </div>
-            </div>
+        <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
+          <img
+            src="/path/to/your/image.jpg"
+            alt="AI generated product image"
+            className="w-full rounded-lg shadow-lg"
+          />
+        </div>
           </div>
         </div>
       </section>
@@ -98,28 +44,82 @@ export default function HomePage() {
           <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div>
               <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
-                Ready to launch your SaaS?
+                Ready to get started?
               </h2>
-              <p className="mt-3 max-w-3xl text-lg text-gray-500">
-                Our template provides everything you need to get your SaaS up
-                and running quickly. Don't waste time on boilerplate - focus on
-                what makes your product unique.
-              </p>
-            </div>
-            <div className="mt-8 lg:mt-0 flex justify-center lg:justify-end">
-              <a
-                href="https://github.com/leerob/next-saas-starter"
-                target="_blank"
-              >
-                <Button className="bg-white hover:bg-gray-100 text-black border border-gray-200 rounded-full text-xl px-12 py-6 inline-flex items-center justify-center">
-                  View the code
-                  <ArrowRight className="ml-3 h-6 w-6" />
-                </Button>
-              </a>
+                <p className="mt-3 max-w-3xl text-lg text-gray-500">
+                Our AI-powered tools help you create stunning images for your products effortlessly. 
+                Enhance your product listings with high-quality visuals that attract and engage customers.
+                </p>
             </div>
           </div>
         </div>
       </section>
+
+      <footer className="bg-gray-900 py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="lg:grid lg:grid-cols-3 lg:gap-8">
+        <div className="lg:col-span-1">
+          <h3 className="text-lg font-medium text-white">About Us</h3>
+          <p className="mt-4 text-base text-gray-400">
+            We are dedicated to providing the best AI-based image generation solutions for your products. Enhance your listings with stunning visuals.
+          </p>
+        </div>
+        <div className="mt-12 lg:mt-0 lg:col-span-1">
+          <h3 className="text-lg font-medium text-white">Quick Links</h3>
+          <ul className="mt-4 space-y-4">
+            <li>
+          <a href="#" className="text-base text-gray-400 hover:text-white">
+            Home
+          </a>
+            </li>
+            <li>
+          <a href="#" className="text-base text-gray-400 hover:text-white">
+            Features
+          </a>
+            </li>
+            <li>
+          <a href="#" className="text-base text-gray-400 hover:text-white">
+            Pricing
+          </a>
+            </li>
+            <li>
+          <a href="#" className="text-base text-gray-400 hover:text-white">
+            Contact
+          </a>
+            </li>
+          </ul>
+        </div>
+        <div className="mt-12 lg:mt-0 lg:col-span-1">
+          <h3 className="text-lg font-medium text-white">Follow Us</h3>
+          <div className="mt-4 flex space-x-6">
+            <a href="#" className="text-gray-400 hover:text-white">
+          <span className="sr-only">Facebook</span>
+          <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M22.675 0h-21.35c-.733 0-1.325.592-1.325 1.325v21.351c0 .733.592 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24h-1.918c-1.504 0-1.794.715-1.794 1.763v2.313h3.587l-.467 3.622h-3.12v9.294h6.116c.733 0 1.325-.591 1.325-1.324v-21.351c0-.733-.592-1.325-1.325-1.325z"/>
+          </svg>
+            </a>
+            <a href="#" className="text-gray-400 hover:text-white">
+          <span className="sr-only">Twitter</span>
+          <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M23.954 4.569c-.885.392-1.83.656-2.825.775 1.014-.608 1.794-1.574 2.163-2.723-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124-4.087-.205-7.713-2.165-10.141-5.144-.423.722-.666 1.561-.666 2.457 0 1.69.861 3.179 2.169 4.055-.8-.026-1.555-.245-2.213-.612v.061c0 2.362 1.679 4.337 3.911 4.779-.409.111-.84.171-1.285.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.376 4.604 3.415-1.68 1.319-3.809 2.105-6.102 2.105-.396 0-.787-.023-1.175-.067 2.179 1.397 4.768 2.213 7.548 2.213 9.054 0 14.002-7.496 14.002-13.986 0-.21 0-.423-.015-.635.961-.695 1.8-1.562 2.46-2.549z"/>
+          </svg>
+            </a>
+            <a href="#" className="text-gray-400 hover:text-white">
+          <span className="sr-only">LinkedIn</span>
+          <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M19.998 3h-16c-1.104 0-2 .896-2 2v14c0 1.104.896 2 2 2h16c1.104 0 2-.896 2-2v-14c0-1.104-.896-2-2-2zm-11.998 16h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.498 11.268h-3v-5.5c0-1.104-.896-2-2-2s-2 .896-2 2v5.5h-3v-10h3v1.268c.586-.586 1.354-.768 2.5-.768 2.206 0 4 1.794 4 4v5.5z"/>
+          </svg>
+            </a>
+          </div>
+        </div>
+          </div>
+          <div className="mt-12 border-t border-gray-700 pt-8">
+        <p className="text-base text-gray-400 text-center">
+          &copy; 2023 Your Company. All rights reserved.
+        </p>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }
