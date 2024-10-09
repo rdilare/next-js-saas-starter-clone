@@ -30,7 +30,7 @@ export default function HomePage() {
         </div>
         <div className="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
           <img
-            src="/path/to/your/image.jpg"
+            src="https://cdn.prod.website-files.com/5ee0a01b09389eebf4c09b45/6616b2e12e0d213577375c5a_AI-Product-Photo-Hero-EN.webp"
             alt="AI generated product image"
             className="w-full rounded-lg shadow-lg"
           />

@@ -28,7 +28,7 @@ export function Login({ mode = 'signin' }: { mode?: 'signin' | 'signup' }) {
         </div>
         <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
           {mode === 'signin'
-            ? 'Sign in to your account'
+            ? 'Sign in to your Account'
             : 'Create your account'}
         </h2>
       </div>
