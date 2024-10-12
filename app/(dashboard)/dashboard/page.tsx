@@ -1,6 +1,6 @@
 import { redirect } from 'next/navigation';
 import { Settings } from './settings';
-import { Workroom } from './workroom/page';
+import  Workroom  from './workroom/page';
 import { getTeamForUser, getUser } from '@/lib/db/queries';
 
 export default async function SettingsPage() {
